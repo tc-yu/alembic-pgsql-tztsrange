@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alembic-pgsql-tztsrange"
+version = "0.0.1"
+authors = [{name = "TC Yu"}]
+
+dependencies = [
+    "sqlalchemy",
+    "alembic",
+    "psycopg[binary,pool]", 
+]
